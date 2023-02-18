@@ -17,8 +17,6 @@ export default class View {
       return this.renderError();
     }
 
-    alert('HACKED');
-
     this._data = data;
     const markup = this._generateMarkup();
 
